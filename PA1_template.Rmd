@@ -2,7 +2,10 @@
 title: "PA1_template"
 author: "John Allen"
 date: "Saturday, January 23, 2016"
-output: html_document
+output:
+  html_document:
+    keep_md: yes
+keep_md: yes
 ---
 Basic Settings
 
