@@ -9,7 +9,6 @@ Basic Settings
 ```{r}
 echo = TRUE  # Always make code visible
 options(scipen = 1)  # Turn off scientific notations for numbers
-include = FALSE
 ```
 
 Load and Process Data
