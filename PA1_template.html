@@ -69,10 +69,9 @@ img {
 
 <p>Basic Settings</p>
 <pre class="r"><code>echo = TRUE  # Always make code visible
-options(scipen = 1)  # Turn off scientific notations for numbers
-include = FALSE</code></pre>
+options(scipen = 1)  # Turn off scientific notations for numbers</code></pre>
 <p>Load and Process Data</p>
-<pre class="r"><code>data &lt;- read.csv(&quot;activity.csv&quot;, colClasses = c(&quot;integer&quot;, &quot;Date&quot;, &quot;factor&quot;))
+<pre class="r"><code>data &lt;- read.csv(&quot;C:/Users/Jono/Desktop/Coursera/Reproducible/RepData_PeerAssessment1/activity.csv&quot;, colClasses = c(&quot;integer&quot;, &quot;Date&quot;, &quot;factor&quot;))
  data$month &lt;- as.numeric(format(data$date, &quot;%m&quot;))
  Numbers &lt;- na.omit(data)
  rownames(Numbers) &lt;- 1:nrow(Numbers)

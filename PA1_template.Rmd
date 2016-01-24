@@ -9,13 +9,12 @@ Basic Settings
 ```{r}
 echo = TRUE  # Always make code visible
 options(scipen = 1)  # Turn off scientific notations for numbers
-include = FALSE
 ```
 
 Load and Process Data
 
 ```{r}
-data <- read.csv("activity.csv", colClasses = c("integer", "Date", "factor"))
+data <- read.csv("C:/Users/Jono/Desktop/Coursera/Reproducible/RepData_PeerAssessment1/activity.csv", colClasses = c("integer", "Date", "factor"))
  data$month <- as.numeric(format(data$date, "%m"))
  Numbers <- na.omit(data)
  rownames(Numbers) <- 1:nrow(Numbers)
